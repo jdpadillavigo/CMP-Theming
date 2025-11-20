@@ -22,11 +22,11 @@ val LightColorTheme = lightColorScheme(
 
 val DarkColorTheme = darkColorScheme(
     primary = PrimaryDark,
-    surface = Surface,
-    surfaceContainerLowest = SurfaceLowest,
-    background = Background,
-    onSurface = OnSurface,
-    onSurfaceVariant = OnSurfaceVariant
+    surface = SurfaceDark,
+    surfaceContainerLowest = SurfaceLowestDark,
+    background = BackgroundDark,
+    onSurface = OnSurfaceDark,
+    onSurfaceVariant = OnSurfaceVariantDark
 )
 
 @Composable

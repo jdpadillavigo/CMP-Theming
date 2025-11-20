@@ -49,7 +49,7 @@ fun NoteMarkTextField(
             value = text,
             onValueChange = onValueChange,
             modifier = Modifier.fillMaxWidth(),
-            visualTransformation = if(isPasswordVisible) {
+            visualTransformation = if(!isPasswordVisible && isInputSecret) {
                 PasswordVisualTransformation(mask = '*')
             } else VisualTransformation.None,
             colors = OutlinedTextFieldDefaults.colors(

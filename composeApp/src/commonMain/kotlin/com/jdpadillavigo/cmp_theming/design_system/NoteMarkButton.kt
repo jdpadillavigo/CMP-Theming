@@ -21,7 +21,8 @@ fun NoteMarkButton(
         modifier = modifier,
         shape = RoundedCornerShape(10.dp),
         colors = ButtonDefaults.buttonColors(
-            containerColor = MaterialTheme.colorScheme.primary
+            containerColor = MaterialTheme.colorScheme.primary,
+            contentColor = MaterialTheme.colorScheme.surface
         ),
         contentPadding = PaddingValues(12.dp)
     ) {
